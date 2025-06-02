@@ -31,13 +31,12 @@ Este projeto contém uma função Lambda em Node.js para consultar Repositorios 
 
 - Após o deploy, teste a função Lambda na AWS Console com um evento JSON:
 
-```json
 ## Deve ser informada uma query string, exemplo:
 
 - https:{url_api}/?usuario=BrenoAntonuci
 
 ## Saida Esperada:
-
+```json
 [
   {
     "nome": "animal-friend",
@@ -80,7 +79,7 @@ Este projeto contém uma função Lambda em Node.js para consultar Repositorios 
     "url": "https://github.com/BrenoAntonuci/umfg-programacao-iii-solid-turma-b"
   }
 ]
-
+```
 Acesse esse link, apos isso é só trocar o usuário da url pra qual você deseja consultar
 
 https://sl7vmhb2ff.execute-api.sa-east-1.amazonaws.com/default/consult-repository?usuario=BrenoAntonuci
