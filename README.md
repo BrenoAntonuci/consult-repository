@@ -19,7 +19,7 @@ Este projeto contém uma função Lambda em Node.js para consultar Repositorios 
    - `AWS_ACCESS_KEY_ID`: sua Access Key ID da AWS.
    - `AWS_SECRET_ACCESS_KEY`: sua Secret Access Key da AWS.
 4. Verificar se o nome da função Lambda no workflow (`consult-repository`) está correto.
-5. Ajustar a região AWS no workflow (`us-east-1`).
+5. Ajustar a região AWS no workflow (`sa-east-1`).
 
 ## Como usar
 
